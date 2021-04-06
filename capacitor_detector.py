@@ -1,28 +1,18 @@
+from functions import Preprocessing, Cleaner
+import cv2
+
+
 class CapacitorDetector:
 
-    def detect(self, board_image):
+    def detect(self, _board_image):
         """
-
-        :param board_image: numpy matrix (n,m)
-        :return: tupla con la posición de los condensadores reconocidos
+        Funcion para la detección de circulos y posterior limpieza para dejar solo condensadores
+        :param _board_image: numpy matrix (n,m)
+        :return: array con la posición de los condensadores reconocidos
         """
-        capacitors = ((10, 50), (15, 50))
-        return capacitors
-
-    def recognise_electrolytic(self, board_image):
-        """
-
-        :param board_image: numpy matrix (n,m)
-        :return: tupla con la posición de los condensadores electrolíticos reconocidos
-        """
-        capacitors = ((20, 25), (25, 30))
-        return capacitors
-
-    def recognise_SMD(self, board_image):
-        """
-
-        :param board_image: numpy matrix (n,m)
-        :return: tupla con la posición de los condensadores SMD reconocidos
-        """
-        capacitors = ((50, 100), (55, 100), (100, 20))
-        return capacitors
+        preproces = Preprocessing()
+        _img = preproces.preprocessing(_board_image)
+        _circles = cv2.HoughCircles(_img, cv2.HOUGH_GRADIENT, 1, 0.5, param1=65, param2=30, minRadius=15, maxRadius=50)
+        cleaner = Cleaner()
+        _capacitors = cleaner.clean_circles(_img, _circles)
+        return _capacitors
