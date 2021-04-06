@@ -5,7 +5,7 @@ from capacitor_detector import CapacitorDetector
 
 class TestCapacitorDetector(unittest.TestCase):
     def test_capacitor_detector_1(self):
-        board_image = cv2.imread("./../Imagenes/Test/rec1-3.jpg")
+        board_image = cv2.imread("./img/test/rec1-3.jpg")
         detector = CapacitorDetector()
         result = detector.detect(board_image)
         self.assertEqual([[3052, 2186, 34], [2530, 2200, 34], [3390, 2004, 31], [3446, 2682, 30], [1968, 1292, 48],
@@ -19,7 +19,7 @@ class TestCapacitorDetector(unittest.TestCase):
                          result)
 
     def test_capacitor_detector_2(self):
-        board_image = cv2.imread("./../Imagenes/Test/rec10-1.jpg")
+        board_image = cv2.imread("./img/test/rec10-1.jpg")
         detector = CapacitorDetector()
         result = detector.detect(board_image)
         self.assertEqual([[2874, 2220, 43], [2724, 1310, 45], [3042, 1974, 42], [2648, 1864, 43], [2960, 1646, 44],
@@ -27,19 +27,19 @@ class TestCapacitorDetector(unittest.TestCase):
                          result)
 
     def test_capacitor_detector_3(self):
-        board_image = cv2.imread("./../Imagenes/Test/rec11-1.jpg")
+        board_image = cv2.imread("./img/test/rec11-1.jpg")
         detector = CapacitorDetector()
         result = detector.detect(board_image)
         self.assertEqual([], result)
     """
     def test_capacitor_electrolytic(self):
-        board_image = cv2.imread("./../Imagenes/Test/rec1-3.jpg")
+        board_image = cv2.imread("./img/test/rec1-3.jpg")
         detector = CapacitorDetector()
         result = detector.recognise_electrolytic(board_image)
         self.assertEqual(result, ((20, 25), (25, 30)))
 
     def test_capacitor_SMD(self):
-        board_image = cv2.imread("./../Imagenes/Test/rec1-3.jpg")
+        board_image = cv2.imread("./img/test/rec1-3.jpg")
         detector = CapacitorDetector()
         result = detector.recognise_SMD(board_image)
         self.assertEqual(result, ((50, 10), (55, 100), (100, 20)))"""
