@@ -20,6 +20,7 @@ if __name__ == "__main__":
     img = cv2.imread(directory)
     detector = CapacitorDetector()
     capacitors = detector.detect(img)
+    print(capacitors)
     if output_path is not None:
         img = paint_circles(img, capacitors)
         save_file(img, "output_image_1-3", "jpg", folder_to_save)
