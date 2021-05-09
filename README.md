@@ -107,3 +107,30 @@ Si se desean ejecutar los test se debe ejecutar el siguiente comando:
 python capacitor_test.py
 ```
 
+### Instalación de Docker
+
+Otra opción para ejecutar el sistema es instalar la imagen Docker creada para este propósito. De esta forma se utilizaría un servidor embebido en el contenedor Docker que espere la petición de un cliente por medio de HTTP.
+
+1. Instalación del Docker en función del sistema operativo a partir del siguiente [enlace](https://docs.docker.com/get-docker/).
+
+2. Una vez instalado y estando en ejecución abrir la terminal y ejecutar el siguiente comando:
+
+  ```
+  docker pull davidmubernal/aiva_2021_capdetect:latest
+  ```
+
+3. Ejecutar en la terminal el siguiente comando:
+
+  ```
+  docker run -dp8000:8000 davidmubernal/aiva_2021_capdetect
+  ```
+
+4. El proceso quedaría en segundo plano esperando a la llamada del cliente en la dirección IP:
+  `127.0.0.1` por el puerto `8000`. Para realizar una prueba de funcionamiento puede utilizar el
+  cliente de Python proporcionado en [GitHub](https://github.com/davidmubernal/AIVA_2021_CapDetect/blob/main/cliente.py).
+
+5. La respuesta del servidor ante una imagen dada será una tupla de tuplas con la posición y el
+radio del condensador, es decir, devuelve una lista con la posición en píxeles de los
+condensadores en forma [_x_, _y_, _r_] donde _x_, _y_ son los píxeles desde la esquina superior izquierda
+de la imagen siendo _x_ en el eje horizontal e _y_ en el eje vertical y _r_ es el radio calculado para
+el condensador que se encuentra en esa posición.
