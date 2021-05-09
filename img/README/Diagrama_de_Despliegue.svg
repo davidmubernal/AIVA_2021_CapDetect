@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1557" height="911" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g>
+	<rect fill="#dcdcdc" stroke="black" stroke-width="1" stroke-opacity="1" x="73" y="357" width="498" height="358" />
+	<polygon fill="#dcdcdc" stroke="black" stroke-opacity="1" points="73,357 83,347 581,347 581,705 571,715 571,357 73,357" />
+	<line stroke="black" stroke-opacity="1" x1="571" y1="357" x2="581" y2="347" />
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" text-anchor="middle" x="322" y="375">:Docker</text>
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-opacity="1" x="708" y="741" width="5" height="5" rx="10" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-opacity="1" x="708" y="518" width="5" height="5" rx="10" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-opacity="1" x="708" y="317" width="5" height="5" rx="10" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-opacity="1" x="708" y="77" width="5" height="5" rx="10" />
+</g>
+<g>
+	<rect fill="#dcdcdc" stroke="black" stroke-width="1" stroke-opacity="1" x="913" y="564" width="460" height="372" />
+	<polygon fill="#dcdcdc" stroke="black" stroke-opacity="1" points="913,564 923,554 1383,554 1383,926 1373,936 1373,564 913,564" />
+	<line stroke="black" stroke-opacity="1" x1="1373" y1="564" x2="1383" y2="554" />
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" text-anchor="middle" x="1143" y="582">:Cliente </text>
+</g>
+<g>
+	<rect fill="#dcdcdc" stroke="black" stroke-width="1" stroke-opacity="1" x="928" y="131" width="446" height="366" />
+	<polygon fill="#dcdcdc" stroke="black" stroke-opacity="1" points="928,131 938,121 1384,121 1384,487 1374,497 1374,131 928,131" />
+	<line stroke="black" stroke-opacity="1" x1="1374" y1="131" x2="1384" y2="121" />
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" text-anchor="middle" x="1151" y="149">:Cliente Python</text>
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-opacity="1" x="708" y="908" width="5" height="5" rx="10" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="710" y1="322" x2="710" y2="517" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="710" y1="523" x2="710" y2="740" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="713" y1="318" x2="927" y2="313" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="710" y1="82" x2="710" y2="316" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="581" y1="522" x2="707" y2="520" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="713" y1="743" x2="912" y2="743" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="710" y1="746" x2="710" y2="907" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1247" y="215" width="3" height="75" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1057" y="287" width="193" height="3" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="1053" y="211" width="194" height="76" />
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" text-anchor="middle" x="1150" y="242">&lt;&lt;artifact&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="1150" y="280">cliente.py</text>
+	<polygon fill="none" stroke="black" stroke-opacity="1" points="1215,215 1234,215 1234,224 1243,224 1243,254 1215,254 1215,215" />
+	<line stroke="black" stroke-opacity="1" x1="1234" y1="215" x2="1243" y2="224" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1148" y="779" width="3" height="75" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="958" y="851" width="193" height="3" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="954" y="775" width="194" height="76" />
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" text-anchor="middle" x="1051" y="806">&lt;&lt;artifact&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="1051" y="844">cv2</text>
+	<polygon fill="none" stroke="black" stroke-opacity="1" points="1116,779 1135,779 1135,788 1144,788 1144,818 1116,818 1116,779" />
+	<line stroke="black" stroke-opacity="1" x1="1135" y1="779" x2="1144" y2="788" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1354" y="778" width="3" height="75" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1164" y="850" width="193" height="3" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="1160" y="774" width="194" height="76" />
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" text-anchor="middle" x="1257" y="805">&lt;&lt;artifact&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="1257" y="843">java</text>
+	<polygon fill="none" stroke="black" stroke-opacity="1" points="1322,778 1341,778 1341,787 1350,787 1350,817 1322,817 1322,778" />
+	<line stroke="black" stroke-opacity="1" x1="1341" y1="778" x2="1350" y2="787" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1352" y="372" width="3" height="75" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1162" y="444" width="193" height="3" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="1158" y="368" width="194" height="76" />
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" text-anchor="middle" x="1255" y="399">&lt;&lt;artifact&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="1255" y="437">Python3.7</text>
+	<polygon fill="none" stroke="black" stroke-opacity="1" points="1320,372 1339,372 1339,381 1348,381 1348,411 1320,411 1320,372" />
+	<line stroke="black" stroke-opacity="1" x1="1339" y1="372" x2="1348" y2="381" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1144" y="372" width="3" height="75" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="954" y="444" width="193" height="3" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="950" y="368" width="194" height="76" />
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" text-anchor="middle" x="1047" y="399">&lt;&lt;artifact&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="1047" y="437">cv2</text>
+	<polygon fill="none" stroke="black" stroke-opacity="1" points="1112,372 1131,372 1131,381 1140,381 1140,411 1112,411 1112,372" />
+	<line stroke="black" stroke-opacity="1" x1="1131" y1="372" x2="1140" y2="381" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="1072" y1="367" x2="1080" y2="365" />
+	<line stroke="black" stroke-opacity="1" x1="1072" y1="367" x2="1070" y2="358" />
+	<line stroke-dasharray="4,4" stroke="black" stroke-opacity="1" x1="1124" y1="291" x2="1072" y2="367" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="1229" y1="367" x2="1230" y2="358" />
+	<line stroke="black" stroke-opacity="1" x1="1229" y1="367" x2="1220" y2="365" />
+	<line stroke-dasharray="4,4" stroke="black" stroke-opacity="1" x1="1178" y1="291" x2="1229" y2="367" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1247" y="634" width="3" height="75" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1057" y="706" width="193" height="3" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="1053" y="630" width="194" height="76" />
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" text-anchor="middle" x="1150" y="661">&lt;&lt;artifact&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="1150" y="699">cliente.java</text>
+	<polygon fill="none" stroke="black" stroke-opacity="1" points="1215,634 1234,634 1234,643 1243,643 1243,673 1215,673 1215,634" />
+	<line stroke="black" stroke-opacity="1" x1="1234" y1="634" x2="1243" y2="643" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="1227" y1="773" x2="1228" y2="764" />
+	<line stroke="black" stroke-opacity="1" x1="1227" y1="773" x2="1218" y2="771" />
+	<line stroke-dasharray="4,4" stroke="black" stroke-opacity="1" x1="1181" y1="710" x2="1227" y2="773" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="1078" y1="774" x2="1086" y2="772" />
+	<line stroke="black" stroke-opacity="1" x1="1078" y1="774" x2="1076" y2="765" />
+	<line stroke-dasharray="4,4" stroke="black" stroke-opacity="1" x1="1122" y1="710" x2="1078" y2="774" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="408" y="403" width="3" height="75" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="218" y="475" width="193" height="3" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="214" y="399" width="194" height="76" />
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" text-anchor="middle" x="311" y="430">&lt;&lt;artifact&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="311" y="468">servidor.py</text>
+	<polygon fill="none" stroke="black" stroke-opacity="1" points="376,403 395,403 395,412 404,412 404,442 376,442 376,403" />
+	<line stroke="black" stroke-opacity="1" x1="395" y1="403" x2="404" y2="412" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="421" y="505" width="3" height="75" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="211" y="577" width="213" height="3" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="207" y="501" width="214" height="76" />
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" text-anchor="middle" x="314" y="532">&lt;&lt;artifact&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="314" y="570">capacitor_detector.py</text>
+	<polygon fill="none" stroke="black" stroke-opacity="1" points="389,505 408,505 408,514 417,514 417,544 389,544 389,505" />
+	<line stroke="black" stroke-opacity="1" x1="408" y1="505" x2="417" y2="514" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="313" y1="500" x2="319" y2="494" />
+	<line stroke="black" stroke-opacity="1" x1="313" y1="500" x2="307" y2="494" />
+	<line stroke-dasharray="4,4" stroke="black" stroke-opacity="1" x1="313" y1="479" x2="313" y2="500" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="287" y="625" width="3" height="75" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="97" y="697" width="193" height="3" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="93" y="621" width="194" height="76" />
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" text-anchor="middle" x="190" y="652">&lt;&lt;artifact&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="190" y="690">Python3.7</text>
+	<polygon fill="none" stroke="black" stroke-opacity="1" points="255,625 274,625 274,634 283,634 283,664 255,664 255,625" />
+	<line stroke="black" stroke-opacity="1" x1="274" y1="625" x2="283" y2="634" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="522" y="626" width="3" height="75" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="332" y="698" width="193" height="3" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="328" y="622" width="194" height="76" />
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" text-anchor="middle" x="425" y="653">&lt;&lt;artifact&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="15" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="425" y="691">cv2</text>
+	<polygon fill="none" stroke="black" stroke-opacity="1" points="490,626 509,626 509,635 518,635 518,665 490,665 490,626" />
+	<line stroke="black" stroke-opacity="1" x1="509" y1="626" x2="518" y2="635" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="389" y1="621" x2="389" y2="612" />
+	<line stroke="black" stroke-opacity="1" x1="389" y1="621" x2="380" y2="620" />
+	<line stroke-dasharray="4,4" stroke="black" stroke-opacity="1" x1="352" y1="581" x2="389" y2="621" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="232" y1="620" x2="240" y2="620" />
+	<line stroke="black" stroke-opacity="1" x1="232" y1="620" x2="232" y2="611" />
+	<line stroke-dasharray="4,4" stroke="black" stroke-opacity="1" x1="273" y1="581" x2="232" y2="620" />
+</g>
+</svg>
