@@ -134,3 +134,18 @@ radio del condensador, es decir, devuelve una lista con la posición en píxeles
 condensadores en forma [_x_, _y_, _r_] donde _x_, _y_ son los píxeles desde la esquina superior izquierda
 de la imagen siendo _x_ en el eje horizontal e _y_ en el eje vertical y _r_ es el radio calculado para
 el condensador que se encuentra en esa posición.
+
+### Diagrama de Despliegue
+
+Este diagrama pretende sintetizar la comunicación entre el cliente y el servidor, así como los distintos
+componentes de cada parte.
+
+![](img/README/Diagrama_de_Despliegue.svg)
+
+El sistema contará con un servidor y uno o más clientes. Para simplificar el sistema el servidor será
+un contenedor Docker con todo lo necesario para la ejecución de la aplicación.
+El cliente puede utilizar cualquier lenguaje de programación siempre y cuando sea compatible con
+OpenCV. Una vez instalados el lenguaje y la librería puede ponerse en comunicación con el
+contenedor Docker y realizarle peticiones. Este contenedor contiene el lenguaje Python 3.7, la librería
+OpenCV y la aplicación concreta al caso de uso.
+Tanto el Docker como el cliente podrán ejecutarse en un mismo equipo.
